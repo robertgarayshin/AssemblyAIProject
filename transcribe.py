@@ -45,7 +45,7 @@ def main():
     with open('transcript.txt', 'w') as f:
         for para in paragraphs:
             print(para['text'] + '\n')
-            f.write(para['text'] + '\n')
+            f.write(para['text'] + '\n' + '\n')
 
     return
 
